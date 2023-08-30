@@ -1,2 +1,3 @@
 #!/bin/bash
-ls 
+echo -n "total "
+du -sh . | cut -f 1 
